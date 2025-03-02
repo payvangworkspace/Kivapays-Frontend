@@ -17,34 +17,36 @@ const techItems = [
 const IntegrationSection = () => {
   return (
     <div className="integration-container">
-      <div className="integration-content">
-        <h2 className="title">Simplistic Integration Ever</h2>
-        <p className="description">
-          Integrating payments with PayVang is seamless with well-documented SDKs, RESTful APIs, and plugins for all major platforms and languages.
-        </p>
-        <p className="sub-heading">Complete integration with…</p>
-        <ul className="integration-list">
-          <li>Client libraries /APIs for PHP, Python, JAVA, NODE.Js, .NET</li>
-          <li>Web Checkout: JS</li>
-          <li>Mobile SDKs: iOS / Android</li>
-          <li>Shopping Cart plugins: Prestashop, OpenCart, WooCommerce, Magento</li>
-          <li>Hybrid Apps: Cordova</li>
-        </ul>
-        <p className="final-note">
-          Comprehensive Documentation, reference apps, and more… Integrate your site in real-time and start payment collection instantly.
-        </p>
-      </div>
-      <div className="technology-icons">
-        {techItems.map((tech, index) => (
-          <motion.div
-            key={index}
-            whileHover={{ scale: 1.1 }}
-            className={`tech-item ${tech.color}`}
-          >
-            {tech.icon}
-            <p className="tech-name">{tech.name}</p>
-          </motion.div>
-        ))}
+      <div className="integration-card">
+        <div className="integration-content">
+          <h2 className="title">Simplistic Integration Ever</h2>
+          <p className="description">
+            Integrating payments with PayVang is seamless with well-documented SDKs, RESTful APIs, and plugins for all major platforms and languages.
+          </p>
+          <p className="sub-heading">Complete integration with…</p>
+          <ul className="integration-list">
+            <li>Client libraries /APIs for PHP, Python, JAVA, NODE.Js, .NET</li>
+            <li>Web Checkout: JS</li>
+            <li>Mobile SDKs: iOS / Android</li>
+            <li>Shopping Cart plugins: Prestashop, OpenCart, WooCommerce, Magento</li>
+            <li>Hybrid Apps: Cordova</li>
+          </ul>
+          <p className="final-note">
+            Comprehensive Documentation, reference apps, and more… Integrate your site in real-time and start payment collection instantly.
+          </p>
+        </div>
+        <div className="technology-icons">
+          {techItems.map((tech, index) => (
+            <motion.div
+              key={index}
+              whileHover={{ scale: 1.1 }}
+              className={`tech-item ${tech.color}`}
+            >
+              {tech.icon}
+              <p className="tech-name">{tech.name}</p>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </div>
   );
