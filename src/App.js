@@ -12,6 +12,7 @@ import { PaymentGatewaySection } from "./Components/PaymentGatewaySection";
 import {InvoiceSection} from "./Components/InvoiceSection";
 import { ViratualaccountSection } from "./Components/VirtualaccountSection";
 import { WhitelabelSection } from "./Components/WhitelabelSection";
+import Register from "./Components/Register";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
           <Route path="/payment-gateway" element={<PaymentGatewaySection />} />
           <Route path="/invoices" element={<InvoiceSection />} />
           <Route path="/virtual-account" element={<ViratualaccountSection />} />
-          <Route path="//white-label" element={<WhitelabelSection />} />
+          <Route path="/white-label" element={<WhitelabelSection />} />
+          <Route path="/signup" element={<Register />} />
         </Routes>
       </div>
     </Router>
