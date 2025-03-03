@@ -8,7 +8,10 @@ import { PricingSection } from "./Components/PricingSection";
 import { TermsAndConditionSection } from "./Components/TermsAndConditionSection";
 import { PrivacyPolicySection } from "./Components/PrivacyPolicySection";
 import { DeveloperSection } from "./Components/DeveloperSection";
-
+import { PaymentGatewaySection } from "./Components/PaymentGatewaySection";
+import {InvoiceSection} from "./Components/InvoiceSection";
+import { ViratualaccountSection } from "./Components/VirtualaccountSection";
+import { WhitelabelSection } from "./Components/WhitelabelSection";
 
 function App() {
   return (
@@ -22,6 +25,10 @@ function App() {
           <Route path="/terms" element={<TermsAndConditionSection />} />
           <Route path="/privacy-policy" element={<PrivacyPolicySection />} />
           <Route path="/developers" element={<DeveloperSection />} />
+          <Route path="/payment-gateway" element={<PaymentGatewaySection />} />
+          <Route path="/invoices" element={<InvoiceSection />} />
+          <Route path="/virtual-account" element={<ViratualaccountSection />} />
+          <Route path="//white-label" element={<WhitelabelSection />} />
         </Routes>
       </div>
     </Router>
