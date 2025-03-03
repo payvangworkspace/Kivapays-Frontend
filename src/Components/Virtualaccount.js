@@ -6,7 +6,7 @@ export const Virtualaccount = () => {
   return (
    <div className="virtualaccount-banner">
        <div className="overlay">
-         <h1 className="feature-title">Virtaul Account</h1>
+         <h1 className="feature-title">Virtual Account</h1>
          <nav className="breadcrumb">
            <Link to="/" className="breadcrumb-link">Home</Link>
            <span className="breadcrumb-separator">|</span>
