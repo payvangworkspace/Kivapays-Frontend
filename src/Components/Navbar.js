@@ -19,7 +19,7 @@ const Navbar = () => {
             <span className="nav-link">Products <FaChevronDown className="dropdown-icon" /></span>
             <div className={`dropdown-menu ${activeDropdown === "product" ? "show" : ""}`}>
               <Link to="/payment-gateway">Payment Gateway</Link>
-              <Link to="/invoices">Invoices</Link>
+              <Link to="/invoices">Invoicing</Link>
               <Link to="/virtual-account">Virtual Account</Link>
               <Link to="/white-label">White Label Solution</Link>
             </div>
