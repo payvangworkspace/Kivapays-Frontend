@@ -1,8 +1,8 @@
-.feature-banner {
+.faq-banner {
     position: relative;
     width: 100%;
     height: 300px;
-    background: url("../public/faq.jpg") center/cover no-repeat;
+    background: url("../public/business.jpg") center/cover no-repeat;
   }
   
   .overlay {

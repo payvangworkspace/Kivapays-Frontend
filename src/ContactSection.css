@@ -2,12 +2,15 @@
 .contact-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
+    gap: 100px;
+    /* width: 50px; */
     padding: 60px 20px;
     background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
     justify-items: center;
-}
+    /* border:2px solid orange; */
 
+}
+ 
 /* Contact Card */
 .contact-card {
     display: flex;
@@ -22,13 +25,14 @@
     transition: all 0.4s ease-in-out;
     cursor: pointer;
     max-width: 350px;
-}
 
+}
+ 
 .contact-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
-
+ 
 /* Icon Styling */
 .icon {
     font-size: 32px;
@@ -43,12 +47,12 @@
     height: 60px;
     transition: all 0.3s ease-in-out;
 }
-
+ 
 .contact-card:hover .icon {
     background: rgba(255, 69, 0, 0.8);
     color: white;
 }
-
+ 
 /* Contact Information */
 .contact-info h3 {
     font-size: 18px;
@@ -56,18 +60,18 @@
     margin-bottom: 5px;
     color: #333;
 }
-
+ 
 .contact-main {
     font-size: 16px;
     font-weight: 500;
     color: #222;
 }
-
+ 
 .contact-sub {
     font-size: 14px;
     color: gray;
 }
-
+ 
 /* Responsive */
 @media (max-width: 768px) {
     .contact-section {

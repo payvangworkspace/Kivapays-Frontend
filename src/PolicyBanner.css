@@ -1,8 +1,10 @@
-.feature-banner {
+/* PrivacyPolicyBanner.css */
+
+.privacypolicy-banner {
     position: relative;
     width: 100%;
     height: 300px;
-    background: url("../public/features.jpg") center/cover no-repeat;
+    background: url("../public/faq.jpg") center/cover no-repeat;
   }
   
   .overlay {
@@ -17,7 +19,7 @@
     color: white;
   }
   
-  .feature-title {
+  .privacypolicy-title {
     font-size: 2.5rem;
     font-weight: bold;
   }
